@@ -1,0 +1,388 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box
+}
+
+.navbar-brand {
+    margin-left: 60px;
+
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    gap: 20px;
+    font-size: 15px;
+}
+
+.icons {
+    margin-left: 450px;
+
+}
+
+.sec2 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.first {
+    width: 200px;
+    height: 200px;
+    border-radius: 40px;
+}
+
+.one {
+    text-align: center;
+    padding-top: 40px;
+    background-color: rgb(187, 248, 228);
+
+}
+
+.two {
+    text-align: center;
+    padding-top: 40px;
+    background-color: rgb(240, 240, 190);
+}
+
+.three {
+    text-align: center;
+    padding-top: 40px;
+    background-color: bisque;
+
+}
+
+.s5-heading {
+    font-size: 50px;
+    color: rgb(18, 18, 222);
+}
+
+.sec4 {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.second {
+    border-radius: 20px;
+}
+
+.health {
+    border: 2px solid black;
+    width: 205px;
+    height: 210px;
+    border-radius: 20px;
+}
+
+.our {
+    font-size: 30px;
+    text-align: center;
+}
+
+.box {
+    width: 125px;
+    height: 210px;
+    border: 3px solid black;
+    border-radius: 15px;
+
+}
+
+.box-parent {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.me {
+    border-radius: 15px;
+}
+
+.head {
+    display: block;
+    text-align: center;
+}
+
+.span {
+    color: rgb(143, 243, 243);
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.rafia {
+    display: none;
+}
+
+.wise {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.wise {
+    display: none;
+}
+
+.marquee {
+    display: flex;
+    gap: 100px;
+}
+
+.bat {
+    text-align: center;
+
+}
+
+.diagnocare {
+    margin-top: -55px;
+
+}
+
+.sm-sec7 {
+    width: 75%;
+    height: 340px;
+    border: 2px solid black;
+    display: none;
+    justify-content: center;
+    margin-bottom: -50px;
+    flex-wrap: wrap;
+    padding-left: 15px;
+
+
+}
+
+.footer { width: 90%;
+    height: 320px;
+    
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+.f1 {
+    
+    margin-top: 50px;
+    
+}
+
+.badge {
+    
+    margin-bottom: 30px;
+}
+
+.sub {
+    color: rgb(14, 14, 121);
+
+}
+.last{ width: 95%;
+    height: 300px;
+    /* border: 2px solid hotpink; */
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+
+}
+.pehla{ width: 30%;
+    height: 300px;
+    margin-left: 70px;
+    /* border: 2px solid red; */
+
+}
+
+.dosra{  width: 30%;
+    height: 300px;
+    /* border: 2px solid black;  */
+    font-size: 13px;
+    
+
+}
+.dosra h4{ color: rgb(27, 27, 213);}
+ .tisra{ width: 30%;
+    height: 300px;
+    /* border: 2px solid blue; */
+    font-size: 13px;
+}
+.tisra h4{ color: rgb(50, 50, 206); margin-left: 18px;
+}
+.tisra ul{
+    list-style: none;}
+.fourth{ width: 30%;
+    height: 300px;
+    /* border: 2px solid yellow; */
+font-size: 13px;}
+.fourth ul{ list-style: none;
+color: rgb(57, 57, 223);}
+.fourth h4{ color: rgb(50, 50, 206); margin-left: 18px;
+}
+.footer-btn{ width: 100%;
+height: 50px;
+border: none;
+border-radius: 5px;
+background-color: rgb(31, 31, 220);
+}
+.slide8{ margin-bottom: 30px;
+     display: flex;
+    justify-content: center;
+    gap: 40px;
+
+}
+.eight-box{ margin-top: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 240px;
+    border: 3px solid black;
+    border-radius: 20px;
+    padding:10px;
+    font-size: 15p;
+}
+.eight-box img{
+    margin-top: -20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+
+
+
+
+@media (min-width: 300px) and (max-width: 600px) {
+    .list {
+        display: inline;
+    }
+
+    .first {
+        width: 200px;
+        height: 150px;
+    }
+
+    .sec2 {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin: 5px;
+
+    }
+
+    .sec4 {
+        display: none;
+    }
+
+    .s5-heading {
+        padding: 0px;
+        margin-top: 20px;
+        font-size: 25px;
+    }
+
+    .box-parent {
+        display: inline-flex;
+        margin: 5px;
+        gap: 5px;
+        padding: 0px;
+    }
+
+    .rafia {
+        display: block;
+    }
+
+    .img {
+        display: none;
+    }
+
+    .wise {
+        display: inline-flex;
+        margin: 10px;
+        gap: 10px;
+
+    }
+
+    .marquee {
+        display: none;
+    }
+
+    .bat {
+        margin-top: -15px;
+
+    }
+
+
+
+    .sm-sec7 {
+        display: block;
+        justify-content: space-around;
+        margin-left: 50px;
+        bottom: -10px;
+        background-color: azure;
+        border-radius: 20px;
+
+    }
+    .footer{ width:300px;
+        height: 300px;
+         display: inline;
+    } 
+    .f1{ font-size: 15px;
+        margin-left: 20px;
+    }
+    .star{
+         width: 200px;
+        height: 250px;
+    }
+    .badge{  
+         margin-left: 70px;
+
+    }
+    .last{ 
+        display: inline ;
+
+    }
+    .pehla{ width: 80%;
+        height: 250px;
+          margin-left: 50px;
+        
+    }
+    .dosra{  width: 80%;
+        height: 200px;
+         margin-left: 50px;
+
+    }
+    .tisra{  width: 80%;
+        height: 150px;
+         margin-left: 50px;
+
+
+    }
+    .fourth{  width: 80%;
+        height: 200px;
+         margin-left: 50px;
+         margin-bottom: 70px;
+
+
+    }
+    .footer-btn{ width: 95%;
+        margin-left: 10px;
+
+    }
+    .slide8{ display: flex;
+        gap: 5px;
+        margin: 5px;
+
+    }
+    .eight-box{  width: 70%;
+        height: 200px;
+        font-size: 10px;
+
+    }
+
+    
+
+}
